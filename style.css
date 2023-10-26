@@ -1,0 +1,119 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #8E0E00;
+    background: -webkit-linear-gradient(to left, #8E0E00, #1F1C18);
+    background: linear-gradient(to left, #8E0E00, #1F1C18);
+    color: #fff; /* Text color for better contrast */
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Increased shadow for a more pronounced effect */
+    border-radius: 20px;
+}
+
+h1 {
+    background: #AD133A; /* A more vibrant color for the header */
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 24px; /* Larger font size for emphasis */
+    font-weight: bold; /* Bold text for emphasis */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center; /* Center the text */
+}
+
+p {
+    padding: 10px; /* Increased padding for better readability */
+    font-size: 18px; /* Larger font size for better readability */
+}
+
+form input[type="text"] {
+    width: 90%; /* Wider input fields */
+    padding: 10px; /* Increased padding for better input field appearance */
+    border: none; /* Remove the border for a cleaner look */
+    background: #f7f7f7; /* Match the background color */
+}
+
+#billamt, #peopleamt {
+    width: 45%; /* Make these input fields slightly narrower */
+    padding: 10px;
+    margin-left: 10px; /* Smaller margin for better alignment */
+    font-size: 18px;
+    background-color: #f7f7f7;
+    border: none;
+    color: #AD133A; /* Use the same color as the header */
+}
+
+#billamt:focus, #peopleamt:focus {
+    background: #fff;
+    border: 2px solid #AD133A; /* Highlight the focused input fields */
+    outline: none;
+}
+
+.dollarSign {
+    font-size: 24px; /* Increase the font size for the dollar sign */
+}
+
+#serviceQual {
+    padding: 10px;
+    margin: 10px 10px 20px 10px; /* Adjusted margins for better spacing */
+    font-size: 20px; /* Slightly smaller font size */
+    text-align: center; /* Center the text */
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #AD133A;
+    border: none; /* Remove the border for a cleaner button */
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px; /* Larger font size for the button text */
+    color: white;
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+button:hover {
+    background: #4c2827;
+}
+
+button:active {
+    transform: translateY(2px); /* Slight button press effect */
+}
+
+#totalTip {
+    font-size: 36px; /* Larger font size for the total tip amount */
+    margin-top: 15px; /* Increased margin for better spacing */
+    text-align: center;
+}
+
+#totalTip:before {
+    content: "Your Tip Amount"; /* Updated content for better clarity */
+    font-size: 24px; /* Smaller font size */
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+    text-align: center; /* Center the text */
+}
+
+#totalTip sup {
+    font-size: 24px;
+    top: -15px; /* Adjusted position for the superscript */
+}
+
+#totalTip small {
+    font-size: 24px; /* Larger font size */
+    font-weight: bold;
+    display: block;
+}
